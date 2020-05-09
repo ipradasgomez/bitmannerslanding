@@ -78,7 +78,7 @@ article .header {
     font-size: 20px;
 }
 
-/* BM Jumbo */
+/* Main Jumbo */
 .bm-jumbo-footer {
     background-image: url('../images/bg.svg');
     min-height: 500px;
@@ -89,7 +89,7 @@ article .header {
     height: 70px;
 }
 
-/* Main Jumbo */
+/* Essentials Jumbo */
 h1.title {
     font-size: 4rem;
     font-weight: bold;
@@ -100,19 +100,29 @@ h2.subtitle {
     font-style: italic;
 }
 
+
+/* Media Jumbo */
+.social-links li {
+    margin-right: 6px;
+}
+
+.social-links li i {
+    border: 1px solid rgb(0, 63, 111);
+    border-radius: 3px;
+    padding: 4px;
+}
+
 /* Footer */
 #footer {
     background: #13161F;
 }
 
 #footer h5 {
-    padding-left: 10px;
     padding-top: 3px;
-    border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
@@ -176,13 +186,6 @@ h2.subtitle {
     background-color: rgb(0, 63, 111);
 }
 
-/* Media */
-.social-links li {
-    margin-right: 6px;
-}
-
-.social-links li i {
-    border: 1px solid rgb(0, 63, 111);
-    border-radius: 3px;
-    padding: 4px;
+#footer h5.quick-links-title{
+    font-weight: bold;
 }
